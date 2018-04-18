@@ -1,13 +1,12 @@
 # crolax_vpn_manual
 crolax vpn使用手册
 
-from:
-https://gitman6.github.io/cshow/
+# From: https://gitman6.github.io/cshow/
 重要提示：如果您主要使用Chrome浏览器，请务必停用quic协议，否则可能会影响速度。关闭方法：
 在chrome地址栏中打开：chrome://flags/#enable-quic,选择『Disabled』，再重启Chrome即可。
 
-#for windows
 
+# for windows
 1.点击此处下载 Windows 客户端(https://github.com/gitman6/cshow/releases/download/windows/ShadowsocksR-4.6.0-win.zip)
 
 2.将文件解压缩到非系统盘的目录下后，
