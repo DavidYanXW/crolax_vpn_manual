@@ -1,7 +1,13 @@
 # crolax_vpn_manual
-vpn使用手册
+crolax vpn使用手册
 
-#client for windows
+from:
+https://gitman6.github.io/cshow/
+重要提示：如果您主要使用Chrome浏览器，请务必停用quic协议，否则可能会影响速度。关闭方法：
+在chrome地址栏中打开：chrome://flags/#enable-quic,选择『Disabled』，再重启Chrome即可。
+
+#for windows
+
 1.点击此处下载 Windows 客户端(https://github.com/gitman6/cshow/releases/download/windows/ShadowsocksR-4.6.0-win.zip)
 
 2.将文件解压缩到非系统盘的目录下后，
@@ -31,8 +37,51 @@ vpn使用手册
 如果需要使用代理访问一些限制IP的网站，请将「代理规则」设置为「全局」即可。
 
 
+# for android
+1.点击此处下载 Android 客户端(https://github.com/gitman6/cshow/releases/download/android/ssr_3.4.0.6.apk)
 
+2.在手机上登录网站，点击「我的账号」页面，点击账号列表右侧「查看详细信息」，进入账号详情页。
 
+3.复制页面中的SSR订阅地址到剪贴板。
+
+4.运行客户端，注意：先不要点击右上角的飞机图标开启代理。点击顶部的「ShadowsocksR」，进入配置文件管理界面，再点击右下角的「+」，在弹出的菜单中点击「添加/升级SSR订阅」。
+
+5.点击「添加订阅地址」，将第3步复制的地址填入输入框中，点击「确定」按钮。
+
+6.再点击「确定并升级」，客户端将会自动获取节点列表。
+
+7.选择一个需要连接的节点后，自动返回到详细设置界面。
+
+8.将「路由」设置为「绕过局域网及中国大陆地址」，其他保持默认即可。
+
+9.返回顶部，点击右上角的小飞机图标即可开始连接。
+
+# for ios
+准备：在App Store购买ios客户端shadowrocket.
+1.在手机上登录网站，点击「我的账号」页面，点击账号列表右侧「查看详细信息」，进入账号详情页。
+
+2.复制页面中的SSR订阅地址到剪贴板。
+
+3.打开shadowrocket，点击右上角的「+」，添加节点。
+
+4.在类型中选择「Subscribe」，将第2步复制的地址填入输入框中，点击「完成」按钮。
+
+5.客户端会自动返回到首页，并自动获取节点列表。
+
+6.选择一个需要连接的节点后，点击顶部的开关即可开始连接。
+
+# for mac
+1.点击此处下载 Mac 客户端(https://github.com/gitman6/cshow/releases/download/mac-r8/ShadowsocksX-NG-R8.dmg)
+
+2.安装好客户端后，打开浏览器登录网站，点击「我的账号」页面，点击账号列表右侧「查看详细信息」，进入账号详情页。
+
+3.复制页面中的SSR订阅地址到剪贴板。
+
+4.运行客户端，点击「服务器」-「编辑订阅」，将第3步复制的地址填入订阅地址输入框中，点击「OK」按钮保存。
+
+5.再点击「服务器」-「手动更新订阅」，客户端将会自动获取节点列表，更新成功后，会弹出成功提示框。
+
+6.点击「打开Shadowsocks」，并选择「PAC自动模式」即可使用（首次使用可能需要先点击「从GFW List更新PAC」）。
 
 
 
