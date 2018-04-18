@@ -1,8 +1,8 @@
 # crolax_vpn_manual
 vpn使用手册
 
-#windows
-1.点击此处下载 Windows 客户端(https://github-production-release-asset-2e65be.s3.amazonaws.com/113830327/932b2972-ea54-11e7-9722-e325c3758403?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180418%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180418T013628Z&X-Amz-Expires=300&X-Amz-Signature=b14f303ad29c5d238938eff2b7b4b716d7fd18413d9df66a622e785b026166e2&X-Amz-SignedHeaders=host&actor_id=1499975&response-content-disposition=attachment%3B%20filename%3DShadowsocksR-4.6.0-win.zip&response-content-type=application%2Foctet-stream)
+#client for windows
+1.点击此处下载 Windows 客户端(https://github.com/gitman6/cshow/releases/download/windows/ShadowsocksR-4.6.0-win.zip)
 
 2.将文件解压缩到非系统盘的目录下后，
 
